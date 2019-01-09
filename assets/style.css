@@ -1,0 +1,58 @@
+a:hover {
+    background-color: #1b25b1;
+}
+.navbar-nav {
+    margin-left: 30%;
+    
+}
+.navbar {
+    background-color: rgb(255, 81, 0);
+    
+}
+body {
+    background-color: rgb(9, 9, 136);
+}
+.nav-item {
+    color: white;
+}
+.navbar-brand {
+    margin-left: 20%;
+    color: white;
+}
+.container {
+    max-width: 960px;
+    background-color: #1b25b1;
+}
+#mainpic {
+   
+    transform: rotate(90deg);
+    margin-top: 17px;
+    float: left;
+}
+#summary {
+    max-width: 960px;
+    min-height: 325px;
+    border: 2px solid;
+    background-color: white;
+}
+p {
+    padding: 15px;
+}
+#diploma {
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+img {
+    padding: 20px;
+}
+#favs {
+    background-color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+#uni {
+    height: 258px;
+    width: 239px;
+}
