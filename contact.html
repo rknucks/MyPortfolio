@@ -2,39 +2,67 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    
+    <scrip type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
 
 
-        <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="mepic.html">
-                    <h1>Rodnee Knuckles</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html">Summary <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        <a class="nav-item nav-link" href="work.html">My Work</a>
-                    </div>
-                </div>
-            </nav>
-        <div class="container">
-</div>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="mepic.html">
+            <h1>Rodnee Knuckles</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Summary <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="hobbies.html">Hobbies</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <a class="nav-item nav-link" href="work.html">My Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="section">
+            <h1 class="display-6">Contact Me</h1>
+            <p class="lead">Please send me a message!.</p>
+        </div>
+
+    </div>
+    
+            <form id="contact" action="MAILTO:rodneeknuckles@yahoo.com" method="POST" enctype="text/plain">
+                First name:<br>
+                    <input type="text" name="firstname"><br>
+                Last name:<br>
+                    <input type="text" name="lastname"><br>
+                Email:<br>
+                <input type="text" id="mail" name="email"><br>
+                Comment:<br>
+                <input type="text" id="comment" name="message" size="50"><br>
+
+                <input type="submit" value="send">
+                <input type="reset" value="reset">
+
+
+            </form>
+    
+
+
+    </div>
+    <script src="assets/port.js"></script>
 </body>
+
 </html>
-
-
-
-   

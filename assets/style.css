@@ -56,3 +56,73 @@ img {
     height: 258px;
     width: 239px;
 }
+.section {
+    background-color: white;
+    max-width: 960px;
+    margin-left: 20%;
+}
+.display-6 {
+    margin-left: 15px;
+}
+#form {
+    background-color: white;
+    max-width: 960px;
+    margin: auto;
+
+}
+input {
+    padding: 5px;
+    margin: 5px;
+}
+#contact {
+    background-color: white;
+    margin-left: 20%;
+    max-width: 960px;
+}
+#send {
+    background-color: rgb(255, 81, 0);
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    height: 182px;
+    padding-top: 30px;
+}
+#comment {
+    width: 99%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+#mail {
+    width: 50%;
+}
+#linkedin {
+    color: white;
+    background-color: rgb(255, 81, 0);
+    padding: 3px;
+}
+#github {
+    color: white;
+    background-color: rgb(255, 81, 0);
+    padding: 3px;
+}
+#project {
+    color: rgb(9, 9, 136);
+    
+    text-align: center;
+    margin-left: 19px;
+    width: 161px;
+}
+#imgClick {
+    color: white;
+    padding: 5px;
+    border: 2px solid rgb(255, 81, 0);
+}
+#imgPlace {
+    background-color: white;
+    max-width: 960px;
+    margin-left: 288px;
+}
